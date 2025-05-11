@@ -1,0 +1,17 @@
+[project]
+name = "ancestria"
+version = "0.1.0"
+description = "An open model of human kinship"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=2.0.2",
+    "pytest>=8.3.5",
+    "scipy>=1.13.1",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+    "ruff>=0.11.9",
+]
